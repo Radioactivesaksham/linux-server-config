@@ -36,7 +36,7 @@ Opening a new SSH Session on your local computer's terminal.
 
  <code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code>
  
- While logged in ubuntu user run the following commands
+ While logged in ubuntu user run the following commands<br>
  <code>sudo apt update</code>
  <code>sudo apt upgrade</code>
  <code>reboot</code>
