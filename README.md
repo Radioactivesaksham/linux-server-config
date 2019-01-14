@@ -37,35 +37,35 @@ Opening a new SSH Session on your local computer's terminal.
  <code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code>
  
  While logged in ubuntu user run the following commands<br>
- <code>sudo apt update</code>
- <code>sudo apt upgrade</code>
- <code>reboot</code>
+ <code>sudo apt update</code><br>
+ <code>sudo apt upgrade</code><br>
+ <code>reboot</code><br>
 
-Changing the SSH Port from 22 to 2200
-<code>nano /etc/ssh/sshd_config</code>
+Changing the SSH Port from 22 to 2200<br>
+<code>nano /etc/ssh/sshd_config</code><br>
 Change line 'Port 22' to 'Port 2200' and save the file
 
-Restart ssh servive
-<code>sudo service ssh restart</code>
-<code>exit</code>
+Restart ssh servive<br>
+<code>sudo service ssh restart</code><br>
+<code>exit</code><br>
  
- New login from local machine 
- <code>ssh -i 'key.pem' ubuntu@13.233.148.2 -p 2200 </code>
+ New login from local machine<br> 
+ <code>ssh -i 'key.pem' ubuntu@13.233.148.2 -p 2200 </code><br>
  
- Configure Timezone to use UTC
- <code>dpkg-reconfigure tzdata</code>
+ Configure Timezone to use UTC<br>
+ <code>dpkg-reconfigure tzdata</code><br>
   
-Creating new user 'grader' and addding it to sudo Group
+Creating new user 'grader' and addding it to sudo Group<br>
 
-<code>sudo adduser grader</code>
-<code>usermod -aG sudo grader</code>
+<code>sudo adduser grader</code><br>
+<code>usermod -aG sudo grader</code><br>
 
-Create a file in sudoers.d for user grader
-<code>sudo nano /etc/sudoers.d/grader</code>
-add `grader ALL=(ALL:ALL) ALL` to file and save
+Create a file in sudoers.d for user grader<br>
+<code>sudo nano /etc/sudoers.d/grader</code><br>
+add `grader ALL=(ALL:ALL) ALL` to file and save<br>
 
-Adding SSH Access to the user 'grader'
-Login as user grader to the virtual server
-<code></code>
+Adding SSH Access to the user 'grader'<br>
+Login as user grader to the virtual server<br>
+<code></code><br>
 
 
