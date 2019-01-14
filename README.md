@@ -6,12 +6,12 @@ Server alias: http://13.233.148.2.xip.io
 
 Summary of software installed
 
-apache2
-libapache2-mod-wsgi
-postgresql
-git
-pip
-virtualenv
+apache2<br>
+libapache2-mod-wsgi<br>
+postgresql<br>
+git<br>
+pip<br>
+virtualenv<br>
 
 Python Packages
 
