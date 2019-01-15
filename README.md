@@ -1,4 +1,4 @@
-Note I have worked with two keys here one('key.pem') for logging in to my virtual server with user ubuntu and 2nd I created on my local computer <code>ssh-keygen</code> and placed it ssh directory of user grader. Private key('sailfish') of user grader will be shared in notes to instructor section. 
+<b>Note</b> I have worked with two keys here one('key.pem') for logging in to my virtual server with user ubuntu and 2nd I created on my local computer <code>ssh-keygen</code> and placed it ssh directory of user grader. Private key('sailfish') of user grader will be shared in notes to instructor section. 
 
 IP address of web app : 13.233.148.2
 
