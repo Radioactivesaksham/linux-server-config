@@ -160,7 +160,7 @@ application.secret_key = 'secret'
 
 <b>Update the absolute path of client_secrets.json in  project.py</b><br>
 
-Installing and Configuring PostgreSQL<br>
+<b>Installing and Configuring PostgreSQL</b><br>
 <code>sudo apt-get install libpq-dev python-dev</code><br>
 <code>sudo apt-get install postgresql postgresql-contrib</code> <br>
 <code> sudo -u postgres psql</code> 
