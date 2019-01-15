@@ -29,9 +29,9 @@ Python Packages
 </ul> 
 
  <b>Movie Catalog Application is deployed on Lightsail instance</b><br> 
-  Create a lightsail instance.<br>
-  Create a new key from Account >SSH-keys.<br>
-  Download the (private)key to SSH in to newly created lightsail instance.<br>
+  1. Create a lightsail instance.<br>
+  2. Create a new key from Account >SSH-keys.<br>
+  3. Download the (private)key to SSH in to newly created lightsail instance.<br>
 
 <b>Opening a new SSH Session on your local computer's terminal.</b><br>
 <code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code><br>
