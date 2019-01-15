@@ -198,7 +198,23 @@ To get the Google login working there are a few additional steps:
 13. Place JSON file in Udacity-item-catalog directory that you cloned from here.<br>
  
  
- 
+ ## References
+
+[1] <https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04>
+
+[2] <http://terokarvinen.com/2016/deploy-flask-python3-on-apache2-ubuntu>
+
+[3] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
+
+[4] <https://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
+
+[5] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
+
+[6] <https://www.digitalocean.com/community/questions/can-i-create-a-clone-from-a-dropplet>
+
+[7] <http://blog.dscpl.com.au/2014/09/using-python-virtual-environments-with.html>
+
+
  
  
  
