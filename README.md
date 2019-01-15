@@ -143,7 +143,7 @@ Add the following content in it:
 <b>Enable the new virtual host</b><br>
 <code>sudo a2ensite catalog</code>
 
-<b>Create and configure the .wsgi file<br>
+<b>Create and configure the .wsgi file</b><br>
 <code>cd /var/www/catalog/</code><br>
 <code>sudo nano catalog.wsgi</code><br>
 Add the following content:
