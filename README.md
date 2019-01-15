@@ -206,7 +206,7 @@ To get the Google login working there are a few additional steps:
 
 [3] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
 
-[4] <https://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu
+[4] <https://askubuntu.com/questions/293426/system-monitoring-tools-for-ubuntu>
 
 [5] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
 
