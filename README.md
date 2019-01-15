@@ -43,7 +43,8 @@ Python Packages
 
 <b>Changing the SSH Port from 22 to 2200</b><br>
 <code>nano /etc/ssh/sshd_config</code><br>
-Change line 'Port 22' to 'Port 2200' and save the file. Dont forget to allow TCP port 2200 in lightsail intance. Click on manage>networking>firewall. Add Port 2200(TCP)<br>
+Change line 'Port 22' to 'Port 2200' and save the file.<br> 
+Dont forget to allow TCP port 2200 in lightsail intance. Click on manage>networking>firewall. Add Port 2200(TCP)<br>
 
 <b>Restart ssh servive</b><br>
 <code>sudo service ssh restart</code><br>
