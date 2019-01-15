@@ -6,7 +6,7 @@ SSH Port = 2200
 
 Server alias: http://13.233.148.2.xip.io
 
-Summary of software installed
+Summary of software installed<br>
 apache2<br>
 libapache2-mod-wsgi<br>
 postgresql<br>
@@ -14,7 +14,7 @@ git<br>
 pip<br>
 virtualenv<br>
 
-Python Packages
+Python Packages<br>
 flask<br>
 SQLAlchemy<br>
 oauth2client<br>
