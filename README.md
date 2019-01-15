@@ -6,14 +6,15 @@ SSH Port = 2200
 
 Server alias: http://13.233.148.2.xip.io
 
-<b>Summary of software installed</b><br>
-apache2<br>
-libapache2-mod-wsgi<br>
-postgresql<br>
-git<br> 
-pip<br>
-virtualenv<br>
-
+<b>List of software installed</b>
+<ul>
+<li>apache2</li>
+<li>libapache2-mod-wsgi</li>
+<li>postgresql</li>
+<li>git</li> 
+<li>pip</li>
+<li>virtualenv</li>
+<li>
 Python Packages
 <ul>
 <li>flask</li>
@@ -24,6 +25,8 @@ Python Packages
 <li>jsonlib</li>
 <li>psycopg2</li>
 </ul>
+</li>
+</ul> 
 Movie Catalog Application is deployed on Lightsail instance<br> 
   Create a lightsail instance.<br>
   Create a new key from Account >SSH-keys.<br>
