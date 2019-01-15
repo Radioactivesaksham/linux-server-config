@@ -6,7 +6,7 @@ SSH Port = 2200
 
 Server alias: http://13.233.148.2.xip.io
 
-##List of software installed
+# List of software installed
 <ul>
 <li>apache2</li>
 <li>libapache2-mod-wsgi</li>
