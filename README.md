@@ -51,13 +51,12 @@ Restart ssh servive<br>
  <code>dpkg-reconfigure tzdata</code><br>
   
 Creating new user 'grader' and addding it to sudo Group<br>
-
 <code>sudo adduser grader</code><br>
 <code>usermod -aG sudo grader</code><br>
 
 Create a file in sudoers.d for user grader<br>
 <code>sudo nano /etc/sudoers.d/grader</code><br>
-add `grader ALL=(ALL:ALL) ALL` to file and save<br>
+Add `grader ALL=(ALL:ALL) ALL` to file and save<br>
 
 Adding SSH Access to the user 'grader'<br>
 Login as user grader to the virtual server<br>
@@ -69,9 +68,9 @@ Now enter the following commands<br>
 <code>touch .ssh/authorized_keys</code><br>
 <code>nano .ssh/authorized_keys</code><br>
 Now pasting the contents of('sailfish') public key in the above file.<br> 
-<chmod 644 authorized_keys>
+<code>chmod 644 authorized_keys</code>
 
-After this,  run exit and try logging back again as user grader
+After this,  run exit and try logging back again as user grader<br>
 <code>ssh -i 'sailfish' grader@13.233.148.2 -p 2200</code>
 
 Setting up the firewall<br>
@@ -80,9 +79,8 @@ Setting up the firewall<br>
 <code>sudo ufw allow 80/tcp</code><br>
 <code>sudo ufw enable</code>
 
-Setup to install apache2,mod_wsgi and git:
+Setup to install apache2,mod_wsgi and git:<br>
 To install the Apache Web Server, run the following command after logging in as the 'grader' user via SSH:
-<code> </code><br>
 
 <code> sudo apt-get update</code><br>
 <code>sudo apt-get install apache2</code><br>
@@ -99,19 +97,19 @@ Configure Apache to serve a Python mod_wsgi application
 <code> git clone https://github.com/___</code>
 
 Install pip , setup virtual environment and also install Flask and its dependencies:<br>
-Install pip, virtualenv (in /var/www/catalog)
+Install pip, virtualenv (in /var/www/catalog)<br>
 <code>sudo apt-get install python-pip</code><br>
 <code>sudo pip install virtualenv</code><br>
 <code>source venv/bin/activate</code><br>
 <code>sudo chmod -R 777 venv</code><br>
 
-Install flask and other dependencies:
+Install flask and other dependencies:<br>
 <code>sudo pip install -r catalog/requirements.txt</code>
 
-Install Python's PostgreSQL adapter psycopg2:
+Install Python's PostgreSQL adapter psycopg2:<br>
 <code>sudo apt-get install python-psycopg2</code>
 
-Configure and Enable a New Virtual Host
+Configure and Enable a New Virtual Host<br>
 <code>sudo nano /etc/apache2/sites-available/catalog.conf</code><br>
 Add the following content in it:
 ```
@@ -139,7 +137,7 @@ Add the following content in it:
 Enable the new virtual host<br>
 <code>sudo a2ensite catalog</code>
 
-Create and configure the .wsgi file
+Create and configure the .wsgi file<br>
 <code>cd /var/www/catalog/</code><br>
 <code>sudo nano catalog.wsgi</code><br>
 Add the following content:
@@ -174,7 +172,6 @@ Installing and Configuring PostgreSQL<br>
 ```
  Restart apache server<br>
  <code>sudo service apache2 restart</code>
-  
  You will now be able to run your application at http://13.233.148.2
  
  Final Updates: <br>
