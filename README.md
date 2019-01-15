@@ -156,8 +156,8 @@ application.secret_key = 'secret'
 Update the absolute path of client_secrets.json in  project.py<br>
 
 Installing and Configuring PostgreSQL<br>
-<code>sudo apt-get install libpq-dev python-dev<code>
-<code>sudo apt-get install postgresql postgresql-contrib</code> 
+<code>sudo apt-get install libpq-dev python-dev<code><br>
+<code>sudo apt-get install postgresql postgresql-contrib</code> <br>
 <code> sudo -u postgres psql</code> 
  ```
 1. Create a new user called 'catalog' with his password:``` # CREATE USER catalog WITH PASSWORD 'catalog';```
