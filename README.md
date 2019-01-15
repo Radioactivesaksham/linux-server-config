@@ -23,9 +23,9 @@ requests<br>
 jsonlib<br>
 psycopg2<br>
 
-Movie Catalog Application is deployed on Lightsail instance 
-  Create a lightsail instance.
-  Create a new key from Account >SSH-keys.
+Movie Catalog Application is deployed on Lightsail instance<br> 
+  Create a lightsail instance.<br>
+  Create a new key from Account >SSH-keys.<br>
   Download the (private)key to SSH in to newly created lightsail instance.
 
 Opening a new SSH Session on your local computer's terminal.
