@@ -80,8 +80,7 @@ Setting up the firewall<br>
 <code>sudo ufw enable</code>
 
 Setup to install apache2,mod_wsgi and git:<br>
-To install the Apache Web Server, run the following command after logging in as the 'grader' user via SSH:
-
+To install the Apache Web Server, run the following command after logging in as the 'grader' user via SSH:<br>
 <code> sudo apt-get update</code><br>
 <code>sudo apt-get install apache2</code><br>
 <code> sudo apt-get install libapache2-mod-wsgi python-dev</code><br>
