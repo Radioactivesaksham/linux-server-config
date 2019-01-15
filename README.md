@@ -28,7 +28,7 @@ Movie Catalog Application is deployed on Lightsail instance<br>
   Create a new key from Account >SSH-keys.<br>
   Download the (private)key to SSH in to newly created lightsail instance.
 
-Opening a new SSH Session on your local computer's terminal.
+Opening a new SSH Session on your local computer's terminal.<br
 <code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code>
  
  While logged in ubuntu user run the following commands<br>
