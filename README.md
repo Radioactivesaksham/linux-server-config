@@ -14,7 +14,8 @@ git<br>
 pip<br>
 virtualenv<br>
 
-<ul>Python Packages<br>
+Python Packages
+<ul>
 <li>flask</li>
 <li>SQLAlchemy</li>
 <li>oauth2client</li>
