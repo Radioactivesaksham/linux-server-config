@@ -34,9 +34,8 @@ Python Packages
   Download the (private)key to SSH in to newly created lightsail instance.<br>
 
 <b>Opening a new SSH Session on your local computer's terminal.</b><br>
-<code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code>
- 
- While logged in ubuntu user run the following commands<br>
+<code>ssh -i 'key.pem' ubuntu@13.233.148.2 </code><br>
+ While logged in as ubuntu user run the following commands<br>
  <code>sudo apt update</code><br>
  <code>sudo apt upgrade</code><br>
  <code>reboot</code><br>
