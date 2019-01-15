@@ -210,9 +210,7 @@ To get the Google login working there are a few additional steps:
 
 [5] <https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps>
 
-[6] <https://www.digitalocean.com/community/questions/can-i-create-a-clone-from-a-dropplet>
 
-[7] <http://blog.dscpl.com.au/2014/09/using-python-virtual-environments-with.html>
 
 
  
