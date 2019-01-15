@@ -14,15 +14,15 @@ git<br>
 pip<br>
 virtualenv<br>
 
-Python Packages<br>
-flask<br>
-SQLAlchemy<br>
-oauth2client<br>
-httplib2<br>
-requests<br>
-jsonlib<br>
-psycopg2<br>
-
+<ul>Python Packages<br>
+<li>flask</li>
+<li>SQLAlchemy</li>
+<li>oauth2client</li>
+<li>httplib2</li>
+<li>requests</li>
+<li>jsonlib</li>
+<li>psycopg2</li>
+</ul>
 Movie Catalog Application is deployed on Lightsail instance<br> 
   Create a lightsail instance.<br>
   Create a new key from Account >SSH-keys.<br>
