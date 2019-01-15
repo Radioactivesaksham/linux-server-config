@@ -111,9 +111,9 @@ Install Python's PostgreSQL adapter psycopg2:<br>
 
 Configure and Enable a New Virtual Host<br>
 <code>sudo nano /etc/apache2/sites-available/catalog.conf</code><br>
+
 Add the following content in it:
-```
-<VirtualHost *:80>
+```<VirtualHost *:80>
    ServerName 13.233.148.2
    ServerAlias 13.233.148.2.xip.io
    ServerAdmin grader@13.233.148.2
@@ -171,7 +171,7 @@ Installing and Configuring PostgreSQL<br>
 10. Remote connections to PostgreSQL should already be blocked. Double check by opening the config file:
 ```
  Restart apache server<br>
- <code>sudo service apache2 restart</code>
+ <code>sudo service apache2 restart</code><br>
  You will now be able to run your application at http://13.233.148.2
  
  Final Updates: <br>
